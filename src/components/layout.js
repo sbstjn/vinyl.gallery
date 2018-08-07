@@ -8,7 +8,7 @@ import './layout.css'
 
 const Layout = ({ children, data }) => (
   <>
-    <Helmet>
+    <Helmet title="vinyl.gallery">
       <html lang="en" />
     </Helmet>
     <Header />
