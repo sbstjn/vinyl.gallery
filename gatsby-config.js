@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'vinyl.gallery',
+    tracking: {
+      gauges: '5b694df7d3cc9a5aaa9ebca3',
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',
