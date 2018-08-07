@@ -5,8 +5,8 @@ export interface Props {
 }
 
 class Tracking extends React.Component<Props> {
-  componentDidMount() {
-    var t = document.createElement('script')
+  public componentDidMount() {
+    const t = document.createElement('script')
     t.type = 'text/javascript'
     t.async = true
     t.id = 'gauges-tracker'
@@ -17,7 +17,7 @@ class Tracking extends React.Component<Props> {
     document.body.appendChild(t)
   }
 
-  render() {
+  public render() {
     return null
   }
 }
