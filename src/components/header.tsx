@@ -4,12 +4,12 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
   background: rebeccapurple;
-  marginbottom: 1.45rem;
+  margin-bottom: 1.45rem;
 `
 
 const Content = styled.div`
   margin: 0 auto;
-  maxwidth: 960;
+  max-width: 960;
   padding: 1.45rem 1.0875rem;
 `
 
@@ -18,7 +18,7 @@ const Headline = styled.h1`
   text-align: center;
 `
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <Wrapper>
     <Content>
       <Headline>

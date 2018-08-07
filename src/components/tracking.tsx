@@ -1,6 +1,10 @@
 import React from 'react'
 
-class Tracking extends React.Component {
+export interface Props {
+  id: string
+}
+
+class Tracking extends React.Component<Props> {
   componentDidMount() {
     var t = document.createElement('script')
     t.type = 'text/javascript'

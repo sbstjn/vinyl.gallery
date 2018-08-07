@@ -8,7 +8,7 @@ import Header from './header'
 
 import './layout.css'
 
-const Layout = ({ children, data }) => (
+const Layout = () => (
   <StaticQuery
     query={graphql`
       query GaugeID {
