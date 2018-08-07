@@ -5,9 +5,9 @@
   "author": "Sebastian Müller <mail@sbstjn.com>",
   "dependencies": {
     "gatsby": "next",
-    "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0"
@@ -23,7 +23,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.13.7"
+    "gatsby-plugin-styled-components": "^2.0.11",
+    "prettier": "^1.13.7",
+    "styled-components": "^3.4.1"
   },
   "repository": {
     "type": "git",
