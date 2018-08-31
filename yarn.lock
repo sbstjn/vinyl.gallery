@@ -2959,6 +2959,10 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
+docopt@~0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/docopt/-/docopt-0.6.2.tgz#b28e9e2220da5ec49f7ea5bb24a47787405eeb11"
+
 doctrine@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz#379dce730f6166f76cefa4e6707a159b02c5a6fa"
@@ -3046,6 +3050,13 @@ domutils@^1.5.1:
   dependencies:
     dom-serializer "0"
     domelementtype "1"
+
+dot-json@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/dot-json/-/dot-json-1.0.4.tgz#b5c5818eb526a7917ac02df017fe9fba37b11195"
+  dependencies:
+    docopt "~0.6.2"
+    underscore-keypath "~0.0.22"
 
 dot-prop@^4.1.0, dot-prop@^4.1.1:
   version "4.2.0"
@@ -4157,6 +4168,13 @@ gauge@~2.7.3:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
+
+gauges-react@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/gauges-react/-/gauges-react-0.1.1.tgz#2d5610a30fa0e75e6f03247d335bce5461453077"
+  dependencies:
+    dot-json "^1.0.4"
+    react "16"
 
 get-caller-file@^1.0.1:
   version "1.0.3"
@@ -6990,7 +7008,7 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react@^16.4.1:
+react@16, react@^16.4.1:
   version "16.4.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.4.2.tgz#2cd90154e3a9d9dd8da2991149fdca3c260e129f"
   dependencies:
@@ -8346,6 +8364,16 @@ ultron@~1.1.0:
 unc-path-regex@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
+
+underscore-keypath@~0.0.22:
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/underscore-keypath/-/underscore-keypath-0.0.22.tgz#48a528392bb6efc424be1caa56da4b5faccf264d"
+  dependencies:
+    underscore "*"
+
+underscore@*:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"

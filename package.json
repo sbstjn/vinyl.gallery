@@ -1,7 +1,6 @@
 {
   "name": "vinyl.gallery",
   "description": "Website for https://vinyl.gallery project.",
-  "version": "0.1.0",
   "author": "Sebastian Müller <mail@sbstjn.com>",
   "dependencies": {
     "@types/node": "^10.5.7",
@@ -31,6 +30,7 @@
     "lint": "tslint src/**/*.{ts,tsx}"
   },
   "devDependencies": {
+    "gauges-react": "^0.1.1",
     "prettier": "^1.13.7",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.14.0",

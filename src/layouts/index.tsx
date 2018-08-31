@@ -3,12 +3,13 @@ import Helmet from 'react-helmet'
 
 import { graphql, StaticQuery } from 'gatsby'
 
-import Header from './header'
-import Tracking from './tracking'
+import { Header } from '../components/Header/Header'
+import Gauges from 'gauges-react'
 
-import './layout.css'
+import './reset.css'
+import './fonts.css'
 
-const Layout = () => (
+export const Layout = () => (
   <StaticQuery
     query={graphql`
       query GaugeID {
@@ -27,10 +28,8 @@ const Layout = () => (
           <html lang="en" />
         </Helmet>
         <Header />
-        <Tracking id={data.site.siteMetadata.tracking.gauges} />
+        <Gauges id={data.site.siteMetadata.tracking.gauges} />
       </>
     )}
   />
 )
-
-export default Layout

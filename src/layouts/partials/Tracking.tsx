@@ -4,7 +4,7 @@ export interface Props {
   id: string
 }
 
-class Tracking extends React.Component<Props> {
+export class Tracking extends React.Component<Props> {
   public componentDidMount() {
     const t = document.createElement('script')
     t.type = 'text/javascript'
@@ -21,5 +21,3 @@ class Tracking extends React.Component<Props> {
     return null
   }
 }
-
-export default Tracking
